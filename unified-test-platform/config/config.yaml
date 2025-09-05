@@ -1,0 +1,28 @@
+# ͳһ�Զ�������ƽ̨����
+
+appium:
+  url: http://localhost:4723/wd/hub
+
+jenkins:
+  url: http://jenkins.example.com:8080
+  username: admin
+  password: password
+
+selenium_grid:
+  hub_url: http://selenium-hub.example.com:4444/wd/hub
+
+database:
+  test_results:
+    host: localhost
+    port: 5432
+    database: test_results
+    username: tester
+    password: password
+
+logging:
+  level: INFO
+  file: logs/platform.log
+
+report:
+  output_dir: reports/
+  formats: [html, json]
